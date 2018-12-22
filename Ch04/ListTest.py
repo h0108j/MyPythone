@@ -1,0 +1,23 @@
+alist = ["이순신" , 25 , "abc" , 3.5] #a리스트
+for a in alist:
+  print(a)
+
+print(alist[1:3])
+print(alist[:3])
+print(alist[1:])
+print(alist[-3:])
+print(alist[-1])
+
+alist.append(50)
+alist.append("대한민국")
+print(alist)
+
+blist = ["대한민국" , "일본" , "미국" , "중국" , "베트남"] #b리스트
+print(blist)
+blist.append("호주")
+print(blist)
+
+clist = [56 , 29 , 134 , 333] #c리스트
+clist.append(24)
+print(clist)
+print(type(clist))
